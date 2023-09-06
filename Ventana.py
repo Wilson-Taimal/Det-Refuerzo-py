@@ -2,6 +2,7 @@ from tkinter import *
 vent = Tk()
 vent.geometry("620x760")
 vent.title(" REINFORCEMENT DETAILS")
+vent.iconbitmap('D:\\BIBLIOTECA PERSONAL\\Programación\\Python\\logo-wat.ico')   # Aqui se cambia el icono de la ventana
 
 # Recuadros
 

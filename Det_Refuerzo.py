@@ -285,6 +285,7 @@ from tkinter import *
 vent = Tk()
 vent.geometry("620x760")
 vent.title(" REINFORCEMENT DETAILS")
+vent.iconbitmap('D:\\BIBLIOTECA PERSONAL\\Programación\\Python\\logo-wat.ico') 
 
 # Recuadros
 
@@ -466,7 +467,7 @@ bot3 = Button(rec7, text = 'Borrar', font='Helvetica 8 bold', command=Borrar); b
 bot3.place(x=280, y=5, width=80, height=20)
 
 # firma
-label = Label(vent, text = "IEB - Diseños civiles - Obras Especiales - 2023 w.a.t. ", font='Arial 7'); label.pack()
+label = Label(vent, text = "wilson.taimalc@gmail.com - 2023", font='Arial 7'); label.pack()
 label.place(x=10, y=740, width=600, height=10)
 
 vent.mainloop()
